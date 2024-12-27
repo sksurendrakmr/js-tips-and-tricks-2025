@@ -18,5 +18,17 @@
         "titleBar.inactiveBackground": "#f9e64f99",
         "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.color": "#f9e64f"
+    "peacock.color": "#f9e64f",
+    "editor.fontSize": 18,
+    "editor.fontFamily": "'Fira Code','Droid Sans Mono', 'monospace'",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "workbench.editor.enablePreview": true,
+    "explorer.openEditors.visible": 1,
+    "workbench.editor.limit.value": 10,
+    "workbench.editor.showTabs": "multiple",
+    "explorer.openEditors.minVisible": 0,
+    "workbench.settings.editor": "ui",
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "zenMode.hideActivityBar": true
 }
