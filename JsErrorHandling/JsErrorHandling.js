@@ -45,7 +45,7 @@ if(cheeseError){
 const results = await Promise.allSettled([getCheese(), getCheese(true)]);
 
 //Method 4.1: non-async
-function wrapIt(promise) {
+async function wrapIt(promise) {
     /**
      * Promise allSettled will return an array of objects, we grab the first one.
      * The object will only ever have one of these properties:
@@ -60,7 +60,7 @@ function wrapIt(promise) {
 
 const [data, error] = await wrapIt(getCheese())
 
-function wrapItObject(promise) {
+async function wrapItObject(promise) {
     return Promise.allSettled([promise]).then(function ([{value, reason}]){
         return {data: value, error: reason};
     })
